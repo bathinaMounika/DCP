@@ -1,5 +1,6 @@
 # DCP
 [![GitHub issues](https://img.shields.io/github/issues/bathinaMounika/DCP.svg)](https://github.com/bathinaMounika/DCP/issues)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/bathinaMounika/DCP.svg)](https://GitHub.com/bathinaMounika/DCP/issues?q=is%3Aissue+is%3Aclosed)
 
 Daily Coding Problems
 
