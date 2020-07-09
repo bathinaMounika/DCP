@@ -1,4 +1,6 @@
 # DCP
+[![GitHub issues](https://img.shields.io/github/issues/bathinaMounika/DCP.svg)](https://github.com/bathinaMounika/DCP/issues)
+
 Daily Coding Problems
 
 ## To-dos
