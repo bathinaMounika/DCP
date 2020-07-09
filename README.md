@@ -13,3 +13,4 @@ Daily Coding Problems
 ## My solutions
 
 - [DCP-1](https://binarysearch.io/problems/Sum-of-two-numbers/editorials/932717)
+- [DCP-2](https://binarysearch.io/problems/Omitted/editorials/939946)
