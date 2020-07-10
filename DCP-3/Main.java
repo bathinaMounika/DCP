@@ -1,3 +1,7 @@
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+import java.util.Arrays;
+
 class TreeNode {
     int val;
     TreeNode left;
@@ -16,7 +20,7 @@ public class Main{
         root.left = new TreeNode(100);
         root.left.left = new TreeNode(99);
         System.out.println(codec.serialize(root));
-        
+        System.out.println(codec.serialize(codec.deserialize("[12,13,null,null,89,null,null]")));
     }
 }
 
@@ -32,6 +36,7 @@ class Codec {
         }
     }
 
+    // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         int height = height(root);
         int nodesCount = (int)Math.pow(2, height+1) - 1;
@@ -64,5 +69,32 @@ class Codec {
         }
         s = "[" + s + "]";
         return s;
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data){
+        if(data != null && data.length() > 0 && data.charAt(0) == '[' && data.charAt(data.length() - 1) == ']')
+            data = data.substring(1, data.length() - 1); //removing brackets
+        String values[] = data.split(",");
+        System.out.println("Arrays.toString" + Arrays.toString(values));
+        TreeNode nodeList[] = new TreeNode[values.length];
+        if(values.length > 0 ){ //checking atleeast one node is present
+            for(int i = 0; i < values.length; i++){
+                    if(values[i].compareTo("null") != 0){
+                        nodeList[i] =new TreeNode(Integer.parseInt(values[i]));
+                    }
+                    else{
+                        nodeList[i] = null;
+                    }
+            }
+        }
+        int nodeCount = nodeList.length;
+        for(int i = 0; i < nodeCount; i++){
+            if(nodeList[i] != null && 2*i + 1 < nodeCount){
+                nodeList[i].left = nodeList[2*i + 1];
+                nodeList[i].right = nodeList[2*i + 2];
+            }
+        }
+        return nodeList[0]; //root
     }
 }
