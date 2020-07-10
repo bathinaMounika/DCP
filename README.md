@@ -1,5 +1,6 @@
 # DCP
 [![GitHub issues](https://img.shields.io/github/issues/bathinaMounika/DCP.svg)](https://github.com/bathinaMounika/DCP/issues)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/bathinaMounika/DCP.svg)](https://GitHub.com/bathinaMounika/DCP/issues?q=is%3Aissue+is%3Aclosed)
 
 Daily Coding Problems
 
@@ -7,9 +8,10 @@ Daily Coding Problems
 
 - Subscribe to [DailyCodingProblem](https://www.dailycodingproblem.com/)
 - Check the mail at 21:30 IST for the problem
-- Read the problem and write the code in Java
+- Read the problem and write better code in Java
 - Push to [Github](https://github.com/bathinaMounika/DCP/)
 
 ## My solutions
 
 - [DCP-1](https://binarysearch.io/problems/Sum-of-two-numbers/editorials/932717)
+- [DCP-2](https://binarysearch.io/problems/Omitted/editorials/939946)

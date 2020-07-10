@@ -1,3 +1,5 @@
+//Time Complexity: O(n)
+//Space complexity: O(n)
 import java.util.*;
 
 class Solution {
