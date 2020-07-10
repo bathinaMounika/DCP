@@ -15,3 +15,4 @@ Daily Coding Problems
 
 - [DCP-1](https://binarysearch.io/problems/Sum-of-two-numbers/editorials/932717)
 - [DCP-2](https://binarysearch.io/problems/Omitted/editorials/939946)
+- [DCP-3](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
