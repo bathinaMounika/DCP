@@ -1,0 +1,12 @@
+Find first missing positive integer in the array.
+Array contains non-positive numbers too.
+
+Example:
+    Input: [-2, 3, 4, -1]
+    Output: 1
+    Explaination: zero is neither positive nor negative
+
+Array can move inplace.
+Solve with
+Time complexity: O(n)
+Space complexity: O(1)
