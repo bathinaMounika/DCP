@@ -2,30 +2,32 @@
 public class Main{
 	public static void main(String[] args){
 
-		Main obj = new Main();
-		//Function MyPairInterface = obj.cons(1, 2);
-		System.out.println(obj.car(obj.cons(1, 2)));
+		System.out.println("car(cons(3, 4)): " + car(cons(3, 4)));
+		System.out.println("cdr(cons(3, 4)): " + cdr(cons(3, 4)));
 
 	}
 
 	interface MyPairInterface{
-			Integer MyPairInterface(MyCarParamInterface f);
+			Integer MyPairInterface(MyParamInterface f);
 	}
 
-	interface MyCarParamInterface{
+	interface MyParamInterface{
 		int carParam(int a, int b);
 	}
 
-	public MyPairInterface cons(int a1, int b1){
-		final int a = a1;
-		//MyPairInterface p = new MyPairInterface(a, b);
-		
-	    MyPairInterface MyPairInterface = (MyCarParamInterface f)-> f.carParam(a1, b1);
+	public static MyPairInterface cons(int a1, int b1){
+		final int a = a1;	
+	    MyPairInterface MyPairInterface = (MyParamInterface f)-> f.carParam(a1, b1);
 		return MyPairInterface;
 	}
 
-	public int car(MyPairInterface p){
-		MyCarParamInterface f = (a, b) -> a;
+	public static int car(MyPairInterface p){
+		MyParamInterface f = (a, b) -> a;
+		return p.MyPairInterface(f);
+	}
+
+	public static int cdr(MyPairInterface p){
+		MyParamInterface f = (a, b) -> b;
 		return p.MyPairInterface(f);
 	}
 }
