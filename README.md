@@ -13,6 +13,7 @@ Daily Coding Problems
 
 ## My solutions
 
-- [DCP-1](https://binarysearch.io/problems/Sum-of-two-numbers/editorials/932717)
-- [DCP-2](https://binarysearch.io/problems/Omitted/editorials/939946)
-- [DCP-3](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [DCP-1 Sum of two numbers make up K](https://binarysearch.io/problems/Sum-of-two-numbers/editorials/932717)
+- [DCP-2 Omiited product](https://binarysearch.io/problems/Omitted/editorials/939946)
+- [DCP-3 Serialize and deserialize binary tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [DCP-4 First missing positive](https://leetcode.com/problems/first-missing-positive/)
