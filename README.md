@@ -19,3 +19,5 @@ Daily Coding Problems
 - [DCP-4 First missing positive](https://leetcode.com/problems/first-missing-positive/)
 - [DCP-5 Jane Problem](/DCP-5/problem.txt)
 - [DCP-6 XorLinkedList](/DCP-6/problem.txt)
+- [DCP-7]()
+- [DCP-8]()
