@@ -18,4 +18,4 @@ Daily Coding Problems
 - [DCP-3 Serialize and deserialize binary tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [DCP-4 First missing positive](https://leetcode.com/problems/first-missing-positive/)
 - [DCP-5 Jane Problem](/DCP-5/problem.txt)
-- [DCP-6]()
+- [DCP-6 XorLinkedList](/DCP-6/problem.txt)
