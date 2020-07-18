@@ -21,3 +21,7 @@ Daily Coding Problems
 - [DCP-6 XorLinkedList](/DCP-6/problem.txt)
 - [DCP-7 Decoding](https://leetcode.com/problems/decode-ways/)
 - [DCP-8 Unival tree count](https://binarysearch.io/problems/Unival-Tree-Count)
+- [DCP-9 Largest sum of non-adjacent numbers](DCP-9/problem.txt)
+- [DCP-10 Job scheduler calls f() after n millisec]()
+- [DCP-11 Autocomplete system]()
+- [DCP-12 Climb staircase]()
