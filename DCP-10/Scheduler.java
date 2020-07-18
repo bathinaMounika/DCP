@@ -1,28 +1,31 @@
-class Scheduler{
-	public static void main(String[] args){
-		solution(new Command(){
-			@Override
-			public void execute(){
-				{
-					System.out.println("Hello World");
-				}
-			}
-		}, 1000);
+import java.util.function.Consumer;
+import java.util.Timer;
+import java.util.TimerTask;
 
-		solution(() -> System.out.println("hai mounika"), 1000);
+public class Scheduler{
+
+	public static void f(long msec){
+		System.out.println("f() called after " + msec + "milliseconds");
 	}
 
-	public static void solution(Command command, int n){
-		new java.util.Timer().schedule(new java.util.TimerTask(){
+	Scheduler(Consumer<Long> f, long msec){
+		new Timer().schedule(new TimerTask(){
 			@Override
 			public void run(){
-				command.execute();
+				f.accept(msec);
 			}
-		}, n);
-	}
+		}, msec);
 
-	interface Command {
-		public void execute();
 	}
+	public static void main(String[] args){
+		long msec;
+		try {
+			msec = Integer.parseInt(args[0]);
+			new Scheduler(Scheduler::f, msec);
+		}
+		catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("give command line arguments\n EX: java Scheduler <milliseconds>");
+			System.exit(0);
+		}
+	} 
 }
-
