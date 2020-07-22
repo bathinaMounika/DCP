@@ -1,4 +1,4 @@
-import java.util.function.Consumer;
+import java.util.function.LongConsumer;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -8,7 +8,7 @@ public class Scheduler{
 		System.out.println("f() called after " + msec + "milliseconds");
 	}
 
-	Scheduler(Consumer<Long> f, long msec){
+	Scheduler(LongConsumer f, long msec){
 		new Timer().schedule(new TimerTask(){
 			@Override
 			public void run(){
