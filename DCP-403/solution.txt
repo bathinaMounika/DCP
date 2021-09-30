@@ -1,0 +1,2 @@
+Rejection Sampling
+https://stackoverflow.com/questions/22084883/compute-rand7-using-rand5
