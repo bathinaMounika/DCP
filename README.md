@@ -25,3 +25,5 @@ Daily Coding Problems
 - [DCP-10 Job scheduler calls f() after n millisec]()
 - [DCP-11 Autocomplete system]()
 - [DCP-12 Climb staircase]()
+- 
+- [DCP-403 rand7() from rand5() using Rejection Sampling](DCP-403/script.py)
